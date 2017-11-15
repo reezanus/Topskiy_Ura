@@ -1,0 +1,83 @@
+.main{
+    margin: 0 auto;
+    width: 1128px;
+    background: #ffffff;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.img{
+        background: #ffffff url('header-bg.jpg');
+        height: 311px;
+}
+.logo a{
+    font-family: "Cuprum", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 23px 0 28px;
+    color: #046eb8;
+    text-decoration: underline;
+}
+.logo{
+        height: 80px;
+    padding-top: 11px;
+    font-size: 0;
+    background: #ffffff;
+}
+.tabs{
+    width: 829px;
+    background: #fff;
+    margin: 5px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    height: 609px;
+}
+.data{
+    text-align: center;
+    padding: 10px;
+    line-height: 20px;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase
+}
+.koroche{
+    line-height: 26px;
+    font-size: 12px;
+    text-align: center;
+    color: #00aeff;
+}
+.line{
+    height: 20px;
+    font-size: 12px;
+}
+.flex{
+	display: flex;
+}
+button{
+	background-color: transparent;
+    border: 1px solid #00a6ff;
+    display: inline-block;
+	    color: #00aeff;
+    font-size: 12px;
+    padding: 2px 10px;
+    text-decoration: none;
+}
+.h2{
+	    color: #fff;
+    background-color: #046eb8;
+    padding: 5px 15px;
+	height: 20px
+}
+.white{
+	background: #ffffff;
+	color: #046eb8;
+}
+.badline{
+	 background: #046eb8;
+	height: 20px;
+	padding: 5px 15px;
+	color: #fff;
+	display: flex
+}
