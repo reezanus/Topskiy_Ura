@@ -1,83 +1,100 @@
-.main{
+body {
+    margin: 0;
+    background: #ffffff;
+    padding-left: 50px;
+    font-family: arial;
+}
+
+.main {
+    
+}
+
+.block {
+
+}
+
+.header {
+    text-align: center;
+}
+
+.img {
+    width: 125px;
+    height: 70px;
+    margin-right: 30px;
+}
+.link {
+    padding-top: 10px;
+}
+.opa {
+    padding-top: 15px;
+}
+.flex {
+    display: flex;
+}
+.over p {
+    font-weight: 500px;
+}
+.btn1 {
+    border: gray;
+    border: 1px solid rgba(0,0,0,0.14);
+    background: #ffffff;
+    padding: 0 24px;
+    font-weight: 500px;
+    border-radius: 20px;
+    height: 40px;
+    margin-right: 15px;
+    margin-left: 100px;
+}
+.btn2 {
+    border: none;
+    background: #FF8C00;
+    padding: 0 24px;
+    font-weight: 500px;
+    border-radius: 20px;
+    height: 40px;
+    color: #ffffff;
+}
+.lol {
+    margin-right: 30px;
+}
+.btn3 {
+    border: none;
+    background: #FF8C00;
+    padding: 0 20px;
+    font-weight: 500px;
+    border-radius: 20px;
+    color: #ffffff; 
+    height: 50px;
+}
+.kedy{
+    width: 600px;
+    height: 400px;
     margin: 0 auto;
-    width: 1128px;
-    background: #ffffff;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
 }
-.img{
-        background: #ffffff url('header-bg.jpg');
-        height: 311px;
+.over1:hover{
+  color: orange;
+  transition: 0.1s;
 }
-.logo a{
-    font-family: "Cuprum", sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    margin: 0 23px 0 28px;
-    color: #046eb8;
-    text-decoration: underline;
+.over2:hover{
+  color: orange;
+  transition: 0.1s;
 }
-.logo{
-        height: 80px;
-    padding-top: 11px;
-    font-size: 0;
-    background: #ffffff;
+.over3:hover{
+  color: orange;
+  transition: 0.1s;
 }
-.tabs{
-    width: 829px;
-    background: #fff;
-    margin: 5px 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    height: 609px;
+.over4:hover{
+  color: orange;
+  transition: 0.1s;
 }
-.data{
-    text-align: center;
-    padding: 10px;
-    line-height: 20px;
-    font-size: 16px;
-    text-align: center;
-    text-transform: uppercase
+.btn:hover{
+    background: black;
+    transition: 30s;
 }
-.koroche{
-    line-height: 26px;
-    font-size: 12px;
-    text-align: center;
-    color: #00aeff;
-}
-.line{
-    height: 20px;
-    font-size: 12px;
-}
-.flex{
-	display: flex;
-}
-button{
-	background-color: transparent;
-    border: 1px solid #00a6ff;
-    display: inline-block;
-	    color: #00aeff;
-    font-size: 12px;
-    padding: 2px 10px;
+a{
     text-decoration: none;
+    color: black;
 }
-.h2{
-	    color: #fff;
-    background-color: #046eb8;
-    padding: 5px 15px;
-	height: 20px
-}
-.white{
-	background: #ffffff;
-	color: #046eb8;
-}
-.badline{
-	 background: #046eb8;
-	height: 20px;
-	padding: 5px 15px;
-	color: #fff;
-	display: flex
+a:hover{
+    color: orange;
 }
